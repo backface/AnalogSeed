@@ -1,0 +1,32 @@
+<resources>
+	
+<properties>
+    <property id="showTime" type="boolean">true</property>
+    <property id="showDate" type="boolean">false</property>
+    <property id="showBatteryBar" type="boolean">true</property>
+    <property id="showStepsBar" type="boolean">true</property>    
+</properties>
+
+<strings>
+	<string id="showTime">Show Time</string>
+	<string id="showDate">Show Date</string>
+	<string id="showStepsBar">Show steps bar</string>
+	<string id="showBatteryBar">Show Battery Bar</string>
+</strings>
+
+<settings>
+	<setting propertyKey="@Properties.showTime" title="@Strings.showTime">
+	  <settingConfig type="boolean"/>
+	</setting>
+	<setting propertyKey="@Properties.showDate" title="@Strings.showDate">
+	  <settingConfig type="boolean"/>
+	</setting>
+	<setting propertyKey="@Properties.showBatteryBar" title="@Strings.showDate">
+	  <settingConfig type="boolean"/>
+	</setting>
+	<setting propertyKey="@Properties.showStepsBar" title="@Strings.showStepsBar">
+	  <settingConfig type="boolean"/>
+	</setting>
+</settings>
+
+</resources>
