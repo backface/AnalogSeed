@@ -53,7 +53,7 @@ class SeedView extends Ui.WatchFace
 		if (showTime) {
 			dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_TRANSPARENT);
 			dc.setPenWidth(2);        
-			var h = ((clockTime.hour % 12) * 30 - 90) * Math.PI / 180;
+			var h = ((clockTime.hour % 12) * 30 + clockTime.min / 2 - 90) * Math.PI / 180;
 			var m = ((clockTime.min * 6) - 90) * Math.PI / 180;
 			var w = (min_dim/2) * 0.66;
 			
